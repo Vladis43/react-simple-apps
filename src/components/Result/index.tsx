@@ -13,7 +13,7 @@ export const Result: FC<ResultProps> = ({ correct }) => {
     return (
         <Container>
             <Image src={images.confetti} alt="confetti.png"/>
-            <Typography variant="h4">Вы отгадали {correct} из {questions.length} ответов</Typography>
+            <Typography variant="h4">Ви відгадали {correct} з {questions.length} відповідей</Typography>
             <Button variant="contained" color="error" onClick={pageReload}>Спробувати знову</Button>
         </Container>
     )
